@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B7090B2ABC4C51FC6B9B0E /* Pods_CustomHttpHeadersURLProtocolSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187697BA5C28B6FA31C5E800 /* Pods_CustomHttpHeadersURLProtocolSample.framework */; };
 		86A926061BFF818E00416B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A926051BFF818E00416B50 /* AppDelegate.swift */; };
 		86A926081BFF818E00416B50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A926071BFF818E00416B50 /* ViewController.swift */; };
 		86A9260B1BFF818E00416B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A926091BFF818E00416B50 /* Main.storyboard */; };
 		86A9260D1BFF818E00416B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A9260C1BFF818E00416B50 /* Assets.xcassets */; };
 		86A926101BFF818E00416B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A9260E1BFF818E00416B50 /* LaunchScreen.storyboard */; };
-		E91DF0BCFD6311A9D978BCCD /* Pods_CustomHttpHeadersURLProtocolSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9CD697B6CB3B439D3D8168 /* Pods_CustomHttpHeadersURLProtocolSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2ADD837B84B9FB57684EFEB9 /* Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHttpHeadersURLProtocolSample/Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig"; sourceTree = "<group>"; };
-		2D603ABDFD0D0202CA4D8C47 /* Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHttpHeadersURLProtocolSample/Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig"; sourceTree = "<group>"; };
-		4C9CD697B6CB3B439D3D8168 /* Pods_CustomHttpHeadersURLProtocolSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomHttpHeadersURLProtocolSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187697BA5C28B6FA31C5E800 /* Pods_CustomHttpHeadersURLProtocolSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomHttpHeadersURLProtocolSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A235D10A70F388C57764ED /* Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHttpHeadersURLProtocolSample/Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig"; sourceTree = "<group>"; };
 		86A926021BFF818E00416B50 /* CustomHttpHeadersURLProtocolSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomHttpHeadersURLProtocolSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A926051BFF818E00416B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A926071BFF818E00416B50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		86A9260C1BFF818E00416B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A9260F1BFF818E00416B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A926111BFF818E00416B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEACDF66EABA0962BAD2CB74 /* Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHttpHeadersURLProtocolSample/Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,20 +33,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91DF0BCFD6311A9D978BCCD /* Pods_CustomHttpHeadersURLProtocolSample.framework in Frameworks */,
+				22B7090B2ABC4C51FC6B9B0E /* Pods_CustomHttpHeadersURLProtocolSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		097C6A28FC8E1445DE170684 /* Pods */ = {
+		78925020BC69285119BE42C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2ADD837B84B9FB57684EFEB9 /* Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig */,
-				2D603ABDFD0D0202CA4D8C47 /* Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig */,
+				187697BA5C28B6FA31C5E800 /* Pods_CustomHttpHeadersURLProtocolSample.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		86A925F91BFF818E00416B50 = {
@@ -54,8 +53,8 @@
 			children = (
 				86A926041BFF818E00416B50 /* CustomHttpHeadersURLProtocolSample */,
 				86A926031BFF818E00416B50 /* Products */,
-				097C6A28FC8E1445DE170684 /* Pods */,
-				9DDB78F51728E01C328266B3 /* Frameworks */,
+				8E2F9D3A6907EAF836BD1BE2 /* Pods */,
+				78925020BC69285119BE42C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,12 +79,13 @@
 			path = CustomHttpHeadersURLProtocolSample;
 			sourceTree = "<group>";
 		};
-		9DDB78F51728E01C328266B3 /* Frameworks */ = {
+		8E2F9D3A6907EAF836BD1BE2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C9CD697B6CB3B439D3D8168 /* Pods_CustomHttpHeadersURLProtocolSample.framework */,
+				82A235D10A70F388C57764ED /* Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig */,
+				FEACDF66EABA0962BAD2CB74 /* Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,12 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86A926141BFF818E00416B50 /* Build configuration list for PBXNativeTarget "CustomHttpHeadersURLProtocolSample" */;
 			buildPhases = (
-				E38838FC1B43944A75EB3F1A /* Check Pods Manifest.lock */,
+				1B4E1F4957BA4BEFED6B8188 /* [CP] Check Pods Manifest.lock */,
 				86A925FE1BFF818E00416B50 /* Sources */,
 				86A925FF1BFF818E00416B50 /* Frameworks */,
 				86A926001BFF818E00416B50 /* Resources */,
-				E8C9B042D49BBF903652E10F /* Embed Pods Frameworks */,
-				88E4E1DE838B5EADAC148A23 /* Copy Pods Resources */,
+				2600EDAF0D71B20C658D01CB /* [CP] Embed Pods Frameworks */,
+				667A4ACBAE0D33DFB02FF40F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -118,11 +118,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Takahiro Ooishi";
 				TargetAttributes = {
 					86A926011BFF818E00416B50 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -158,29 +159,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		88E4E1DE838B5EADAC148A23 /* Copy Pods Resources */ = {
+		1B4E1F4957BA4BEFED6B8188 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomHttpHeadersURLProtocolSample/Pods-CustomHttpHeadersURLProtocolSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E38838FC1B43944A75EB3F1A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,19 +174,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E8C9B042D49BBF903652E10F /* Embed Pods Frameworks */ = {
+		2600EDAF0D71B20C658D01CB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomHttpHeadersURLProtocolSample/Pods-CustomHttpHeadersURLProtocolSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667A4ACBAE0D33DFB02FF40F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomHttpHeadersURLProtocolSample/Pods-CustomHttpHeadersURLProtocolSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -250,8 +251,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -294,8 +297,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -314,31 +319,36 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		86A926151BFF818E00416B50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ADD837B84B9FB57684EFEB9 /* Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig */;
+			baseConfigurationReference = 82A235D10A70F388C57764ED /* Pods-CustomHttpHeadersURLProtocolSample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomHttpHeadersURLProtocolSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.heartofsword.CustomHttpHeadersURLProtocolSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		86A926161BFF818E00416B50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D603ABDFD0D0202CA4D8C47 /* Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig */;
+			baseConfigurationReference = FEACDF66EABA0962BAD2CB74 /* Pods-CustomHttpHeadersURLProtocolSample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomHttpHeadersURLProtocolSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.heartofsword.CustomHttpHeadersURLProtocolSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

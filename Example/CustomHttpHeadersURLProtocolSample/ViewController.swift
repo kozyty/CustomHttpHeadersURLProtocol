@@ -16,30 +16,30 @@ class ViewController: UIViewController {
   }
   
   @IBAction func doRequest() {
-    let url = NSURL(string: "http://0.0.0.0:9292")!
-    let request = NSMutableURLRequest(URL: url)
-    request.HTTPMethod = "GET"
+    let url = URL(string: "http://0.0.0.0:9292")!
+    var request = URLRequest(url: url)
+    request.httpMethod = "GET"
     
-    let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { (data, response, error) -> Void in
+    let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) -> Void in
       if error == nil {
-        let result = NSString(data: data!, encoding: NSUTF8StringEncoding)
+        let result = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
         print(result)
       } else {
         print(error)
       }
-    }
+    }) 
     task.resume()
   }
   
-  private func setupCustomHttpHeadersURLProtocol() {
+  fileprivate func setupCustomHttpHeadersURLProtocol() {
     let setupCustomHeaders: CustomHttpHeadersConfig.SetupCustomHeaders = { (request: NSMutableURLRequest) in
       request.addValue("CustomHttpHeadersURLProtocolSample", forHTTPHeaderField: "X-App-Name")
-      request.addValue("\(NSDate().timeIntervalSince1970)", forHTTPHeaderField: "X-Timestamp")
+      request.addValue("\(Date().timeIntervalSince1970)", forHTTPHeaderField: "X-Timestamp")
     }
     
-    let canHandleRequest: CustomHttpHeadersConfig.CanHandleRequest = { (request: NSURLRequest) -> Bool in
-      guard let scheme = request.URL?.scheme else { return false }
-      guard let host = request.URL?.host else { return false }
+    let canHandleRequest: CustomHttpHeadersConfig.CanHandleRequest = { (request: URLRequest) -> Bool in
+      guard let scheme = request.url?.scheme else { return false }
+      guard let host = request.url?.host else { return false }
       
       if !["http", "https"].contains(scheme) { return false }
       if host == "0.0.0.0" { return true }
